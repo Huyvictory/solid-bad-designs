@@ -12,38 +12,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf7eaee-8ea9-459f-9375-0e7e5726bf33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Single-Responsibility/CartStorageFile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Single-Responsibility/Interfaces/ICartPrinter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Single-Responsibility/Interfaces/ICartStorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Single-Responsibility/PrintCartConsole.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single-Responsibility/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Single-Responsibility/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single-Responsibility/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Single-Responsibility/ShoppingCart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single-Responsibility/Single-Responsibility.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Single-Responsibility/Single-Responsibility.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingEnglish.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingNorwegian.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingSpain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingSweden.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingVietnam.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed/IGreeting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SOLID-Bad-Designs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SOLID-Bad-Designs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Huyvictory"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Huyvictory&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Huyvictory/solid-bad-designs.git",
-    "accountId": "cd092e7e-b955-495e-95ba-e08c65c0a667"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Huyvictory/solid-bad-designs.git&quot;,
+    &quot;accountId&quot;: &quot;cd092e7e-b955-495e-95ba-e08c65c0a667&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2kyTJCrVPSHIJdJg7xDqWicyH9m" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Open-Closed.executor": "Debug",
     ".NET Project.Single-Responsibility.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -70,7 +77,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Single-Responsibility">
+  <component name="RunManager" selected=".NET Project.Open-Closed">
     <configuration name="Dependency-Inversion" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -170,15 +177,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724254743465</updated>
-      <workItem from="1724254746911" duration="4886000" />
+      <workItem from="1724254746911" duration="5502000" />
+      <workItem from="1724338564650" duration="2077000" />
     </task>
+    <task id="LOCAL-00001" summary="Add updated code for single responsibility pattern in SOLID design patterns.">
+      <option name="closed" value="true" />
+      <created>1724259933933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724259933933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add updated code for single responsibility pattern in SOLID design patterns." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add updated code for single responsibility pattern in SOLID design patterns." />
   </component>
 </project>
