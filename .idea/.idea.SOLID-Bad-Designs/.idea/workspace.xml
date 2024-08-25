@@ -12,14 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf7eaee-8ea9-459f-9375-0e7e5726bf33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingEnglish.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingNorwegian.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingSpain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingSweden.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed/GreetingCountries/GreetingVietnam.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed/IGreeting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SOLID-Bad-Designs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SOLID-Bad-Designs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open-Closed/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov-Substitution/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov-Substitution/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov-Substitution/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov-Substitution/Rectangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov-Substitution/Square.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov-Substitution/Square.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Liskov-Substitution.executor": "Debug",
     ".NET Project.Open-Closed.executor": "Debug",
     ".NET Project.Single-Responsibility.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,7 +74,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Open-Closed">
+  <component name="RunManager" selected=".NET Project.Liskov-Substitution">
     <configuration name="Dependency-Inversion" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -178,7 +175,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724254743465</updated>
       <workItem from="1724254746911" duration="5502000" />
-      <workItem from="1724338564650" duration="2077000" />
+      <workItem from="1724338564650" duration="3208000" />
+      <workItem from="1724572806008" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Add updated code for single responsibility pattern in SOLID design patterns.">
       <option name="closed" value="true" />
@@ -188,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724259933933</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update code for open-closed principle in SOLID principles">
+      <option name="closed" value="true" />
+      <created>1724340768261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724340768261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add updated code for single responsibility pattern in SOLID design patterns." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add updated code for single responsibility pattern in SOLID design patterns." />
+    <MESSAGE value="Update code for open-closed principle in SOLID principles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update code for open-closed principle in SOLID principles" />
   </component>
 </project>
