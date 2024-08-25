@@ -1,22 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
+using Dependency_Inversion.Interfaces;
 
-namespace Dependency_Inversion
+namespace Dependency_Inversion.Storage
 {
-    public class FileStorage
+    public class FileStorage : IStorage
     {
-        private string fileName;
-        public FileStorage(string fileName) { 
-            this.fileName = fileName;
+        private readonly string _fileName;
+
+        public FileStorage(string fileName)
+        {
+            _fileName = fileName;
         }
 
         public ShoppingCart? Load()
         {
-            using var reader = new StreamReader(new FileStream(fileName, FileMode.Open));
+            using var reader = new StreamReader(new FileStream(_fileName, FileMode.Open));
             var jsonString = reader.ReadToEnd();
             reader.Close();
 
@@ -28,6 +26,7 @@ namespace Dependency_Inversion
                 {
                     cart.Add(item);
                 }
+
                 return cart;
             }
 
@@ -38,7 +37,7 @@ namespace Dependency_Inversion
         {
             string jsonString = JsonSerializer.Serialize(cart.Items);
 
-            using var writer = new StreamWriter(new FileStream(fileName, FileMode.Create));
+            using var writer = new StreamWriter(new FileStream(_fileName, FileMode.Create));
             writer.Write(jsonString);
             writer.Flush();
             writer.Close();

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Dependency_Inversion.Interfaces;
 
-namespace Dependency_Inversion
+namespace Dependency_Inversion.Printer
 {
-    public class ConsolePrinter
+    public class ConsolePrinter : IPrinter
     {
         public void Print(ShoppingCart cart)
         {

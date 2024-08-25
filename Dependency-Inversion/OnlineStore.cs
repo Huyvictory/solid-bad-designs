@@ -3,34 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dependency_Inversion.Interfaces;
+using Dependency_Inversion.Printer;
+using Dependency_Inversion.Storage;
 
 namespace Dependency_Inversion
 {
     public class OnlineStore
     {
-        private readonly ConsolePrinter printer;
-        private readonly FileStorage storage;
+        private readonly IPrinter _printer;
+        private readonly IStorage _storage;
 
         public ShoppingCart Cart { get; private set; }
 
-        public OnlineStore(ConsolePrinter printer, FileStorage storage) {
+        public OnlineStore(IPrinter printer, IStorage storage)
+        {
             Cart = new ShoppingCart();
 
-            this.printer = printer;
-            this.storage = storage;
+            _printer = printer;
+            _storage = storage;
         }
 
         public void Save()
         {
-            storage.Save(Cart);
+            _storage.Save(Cart);
         }
 
         public void Load()
         {
-            var cart = storage.Load();
+            var cart = _storage.Load();
             if (cart != null)
             {
-                this.Cart = cart;
+                Cart = cart;
             }
             else
             {
@@ -40,7 +44,7 @@ namespace Dependency_Inversion
 
         public void Print()
         {
-            printer.Print(Cart);
+            _printer.Print(Cart);
         }
     }
 }

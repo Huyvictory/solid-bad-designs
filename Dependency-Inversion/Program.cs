@@ -1,7 +1,10 @@
 ﻿using Dependency_Inversion;
+using Dependency_Inversion.Interfaces;
+using Dependency_Inversion.Printer;
+using Dependency_Inversion.Storage;
 
-var printer = new ConsolePrinter();
-var fileStorage = new FileStorage("cart.json");
+IPrinter printer = new ConsolePrinter();
+IStorage fileStorage = new FileStorage("cart.json");
 var store = new OnlineStore(printer, fileStorage);
 
 store.Cart.Add(new ShoppingCartItem()
@@ -27,3 +30,12 @@ store.Print();
 
 store.Load();
 store.Print();
+
+// For new implementations of interfaces
+IPrinter printerGui = new GUIPrinter();
+IStorage databaseStorage = new DatabaseStorage();
+
+printerGui.Print(store.Cart);
+
+databaseStorage.Save(store.Cart);
+databaseStorage.Load();
