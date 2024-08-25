@@ -1,12 +1,16 @@
 ﻿using Interface_Segregation;
+using Interface_Segregation.Interfaces;
 
 IOnlineStore onlineStore = new OnlineStore();
+ICart cart = new Cart();
+var checkoutInfo = new CheckoutInfo();
 
-onlineStore.AddProduct(1, 1);
-onlineStore.AddProduct(2, 10);
-onlineStore.AddProduct(3, 100);
+cart.AddProduct(1, 1);
+cart.AddProduct(2, 10);
+cart.AddProduct(3, 100);
 
-onlineStore.SetCheckoutInfo(new CheckoutInfo());
+cart.RemoveProduct(1, 1);
+cart.RemoveProduct(2, 5);
 
-var order = onlineStore.Checkout();
+var order = onlineStore.Checkout(cart, checkoutInfo);
 Console.WriteLine($"Order created, Id = {order.Id}");

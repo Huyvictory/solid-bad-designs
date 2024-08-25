@@ -11,11 +11,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf7eaee-8ea9-459f-9375-0e7e5726bf33" name="Changes" comment="">
+    <list default="true" id="6cf7eaee-8ea9-459f-9375-0e7e5726bf33" name="Changes" comment="Update code to adapt the liskov substitution principle">
+      <change afterPath="$PROJECT_DIR$/Interface-Segregation/Cart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface-Segregation/Interfaces/ICart.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SOLID-Bad-Designs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SOLID-Bad-Designs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov-Substitution/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov-Substitution/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov-Substitution/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov-Substitution/Rectangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov-Substitution/Square.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov-Substitution/Square.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface-Segregation/IOnlineStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interface-Segregation/Interfaces/IOnlineStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface-Segregation/OnlineStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interface-Segregation/OnlineStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface-Segregation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interface-Segregation/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,16 @@
     &quot;accountId&quot;: &quot;cd092e7e-b955-495e-95ba-e08c65c0a667&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Rectangle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Rectangle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Square.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vomin/OneDrive/HuyvictoryPC/.NET Basics/solid-bad-designs/Liskov-Substitution/Square.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -53,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Interface-Segregation.executor": "Debug",
     ".NET Project.Liskov-Substitution.executor": "Debug",
     ".NET Project.Open-Closed.executor": "Debug",
     ".NET Project.Single-Responsibility.executor": "Debug",
@@ -74,7 +87,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Liskov-Substitution">
+  <component name="RunManager" selected=".NET Project.Interface-Segregation">
     <configuration name="Dependency-Inversion" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -176,7 +189,7 @@
       <updated>1724254743465</updated>
       <workItem from="1724254746911" duration="5502000" />
       <workItem from="1724338564650" duration="3208000" />
-      <workItem from="1724572806008" duration="3158000" />
+      <workItem from="1724572806008" duration="7404000" />
     </task>
     <task id="LOCAL-00001" summary="Add updated code for single responsibility pattern in SOLID design patterns.">
       <option name="closed" value="true" />
@@ -194,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724340768261</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update code to adapt the liskov substitution principle">
+      <option name="closed" value="true" />
+      <created>1724577196994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724577196994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +227,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add updated code for single responsibility pattern in SOLID design patterns." />
     <MESSAGE value="Update code for open-closed principle in SOLID principles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update code for open-closed principle in SOLID principles" />
+    <MESSAGE value="Update code to adapt the liskov substitution principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update code to adapt the liskov substitution principle" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Interface-Segregation/Program.cs</url>
+          <line>13</line>
+          <properties documentPath="C:\Users\vomin\OneDrive\HuyvictoryPC\.NET Basics\solid-bad-designs\Interface-Segregation\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="281" />
+            </startOffsets>
+            <endOffsets>
+              <option value="334" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
